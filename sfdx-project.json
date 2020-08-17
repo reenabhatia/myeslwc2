@@ -6,11 +6,11 @@
     },
     {
       "path": "es-base-styles",
-      "default": true
+      "default": false
     },
     {
       "path": "es-space-mgmt",
-      "default": false
+      "default": true
     }
   ],
   "namespace": "",
