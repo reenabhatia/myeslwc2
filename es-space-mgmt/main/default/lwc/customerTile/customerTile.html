@@ -3,14 +3,14 @@
     <lightning-layout vertical-align="center">
         <lightning-layout-item>
         <lightning-icon 
-            icon-name="doctype:image" 
-            alternative-text="image">
+            icon-name={icon} 
+            alternative-text={alttext}>
         </lightning-icon>
     </lightning-layout-item>
     <lightning-layout-item padding="horizontal-small">
-        <a href="#" alt="">Divya</a>
-        <p>Status: Not Contacted</p>
-        <p>Email: divya@salesforce.com</p>
+        <a href="#" alt="">{customer.name}</a>
+        <p>Status: {customer.status}</p>
+        <p>Email: {customer.email}</p>
     </lightning-layout-item>
     </lightning-layout>
     </div>

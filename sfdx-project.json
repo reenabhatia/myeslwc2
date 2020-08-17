@@ -10,7 +10,7 @@
     },
     {
       "path": "es-space-mgmt",
-      "default": true
+      "default": false
     }
   ],
   "namespace": "",
